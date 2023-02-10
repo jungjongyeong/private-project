@@ -17,7 +17,7 @@ $('.slide-group2').slick({
     prevArrow: '<button type="button" class="slick-prev"><i class="fa-solid fa-angle-left"></i></button>',
     nextArrow: '<button type="button" class="slick-next"><i class="fa-solid fa-angle-right"></i></button>',
     speed:1000,
-    slidesToShow: 3,
+    slidesToShow: 4,
     slidesToScroll:1,
     responsive: [{
         breakpoint: 1025,
@@ -25,6 +25,14 @@ $('.slide-group2').slick({
             slidesToShow: 1,
         }
 }]
+})
+$('.slide-group3').slick({
+    autoplay: true,
+    autoplaySpeed: 3000,
+    arrows: false,
+    speed:1000,
+    pauseOnHover: false,
+    fade: true,
 })
 
 
@@ -41,4 +49,6 @@ $('.article1 .plpa i').on('click', function(){
     }
 })
 
-
+$('.selectIn').on('click', function(){
+    $('.select').toggleClass('on');
+})

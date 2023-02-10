@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.2.0/css/all.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.3.0/css/all.css">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/common.css">
     <link rel="stylesheet" href="./css/index.css">
@@ -191,53 +191,202 @@
                         <div class="slide_text">
                         </div>
                     </a>
-                    <a href=""  class="slide slide2">
+                    <a href="" class="slide slide2">
                         <img src="./img/main_img2.jpg" alt="">
                         <div class="slide_text">
                         </div>
                     </a>
-                    <a href=""  class="slide slide3">
+                    <a href="" class="slide slide3">
                         <img src="./img/main_img3.jpg" alt="">
                         <div class="slide_text">
                         </div>
                     </a>
-                    <a href=""  class="slide slide4">
+                    <a href="" class="slide slide4">
                         <img src="./img/main_img4.jpg" alt="">
                         <div class="slide_text">
                         </div>
                     </a>
-                    <a href=""  class="slide slide5">
+                    <a href="" class="slide slide5">
                         <img src="./img/main_img5.jpg" alt="">
                         <div class="slide_text">
                         </div>
                     </a>
-                    <a href=""  href = "" class="slide slide6">
+                    <a href="" href="" class="slide slide6">
                         <img src="./img/main_img6.jpg" alt="">
                         <div class="slide_text">
                         </div>
                     </a>
                 </div>
+                <div id="quickTab">
+                    <p class="stit_con_title">어디로 떠나고 싶으세요?</p>
+                    <ul class="search_link">
+                        <li>패키지</li>
+                        <li><a href="">항공</a></li>
+                        <li><a href="">호텔</a></li>
+                    </ul>
+                    <div class="spot_search">
+                        <label for="cityArea">여행지 입력</label>
+                        <input type="text" class="" id="cityArea" placeholder="" autocomplete="off" value="">
+                        <button type="button" id="cityPopup" class="btn_city searchCity">지역검색<i
+                                class="fa-solid fa-location-dot"></i></button>
+                    </div>
+                    <div class="spot_search">
+                        <select>
+                            <option>출발예정월</option>
+                            <option value="2023년 02월">2023년 02월</option>
+                            <option value="2023년 03월">2023년 03월</option>
+                            <option value="2023년 04월">2023년 04월</option>
+                            <option value="2023년 05월">2023년 05월</option>
+                            <option value="2023년 06월">2023년 06월</option>
+                            <option value="2023년 07월">2023년 07월</option>
+                            <option value="2023년 08월">2023년 08월</option>
+                            <option value="2023년 09월">2023년 09월</option>
+                            <option value="2023년 10월">2023년 10월</option>
+                            <option value="2023년 11월">2023년 11월</option>
+                            <option value="2023년 12월">2023년 12월</option>
+                        </select>
+                        <label for="txt2_2">여행날짜</label>
+                        <input type="date" id="txt2_2" class="spot_date" value="">
+                    </div>
+                    <button type="button" class="btn_cof cfrm" nlogger="city" id="citySearch">검색하기</button>
+                    <div class="block_keyword">
+                        <div class="area_word">
+                            <div class="txt_keyword">최근검색</div>
+                            <ul class="list_keyword" id="travSearchHistory">
+                                <li>최근검색이 없습니다.</li>
+                            </ul>
+                        </div>
+                    </div>
             </article>
             <article class="article2">
-                <div class="tit"> 
-                    <div class="row">
-                        <h3>Brand Story</h2>
-                            <p>고객만족 극대화로 최고의 기업이 되겠습니다.</p>
+                <div class="tit">
+                    <div class="row cf">
+                        <h3>2023 새해의 안녕을 위해, 우리 여행 갈까 🛫</h2>
                     </div>
-                    <div class="titimg cf">
-                        <div class="titimgleft">
-                            <img src="./img/img1.jpg" alt="">
-                        </div>
-                        <div class="titimgright cf">
-                            <p>최고의 IT 서비스 기업임을 자부하고 있는 저희 회사는 지난 1999년 설립된 이후,
-                                고객과 사회의 이익을 위해 끊임없이 연구하고 노력 발전해왔습니다.</p>
-                            <div class="rightDiv">
-                                <a href="#">회사소개</a>
-                                <a href="#">연혁</a>
-                                <a href="#">조직도</a>
+                    <div class="titimg">
+                        <div class="slide-group2">
+                            <div class="slide slide1">
+                                <a href="">
+                                    <span class="blind">슬라이드 이미지1</span>
+                                    <div class="slideTxt">
+                                        <p>[신규취항특가] 홍콩 자유여행 3/4일</p>
+                                        <b>#항공+호텔+보험#홍콩섬#란콰이퐁중심</b>
+                                        <span>399,000원~</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="slide slide2">
+                                <a href="">
+                                    <span class="blind">슬라이드 이미지2</span>
+                                    <div class="slideTxt">
+                                        <p>가고시마 4일 #남규슈 #검은모래찜질</p>
+                                        <b>#온천호텔 1박 이상 #가고시마, 사쿠라지마 화산</b>
+                                        <span>799,900~</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="slide slide3">
+                                <a href="">
+                                    <span class="blind">슬라이드 이미지3</span>
+                                    <div class="slideTxt">
+                                        <p>사이판 4,5,6일 #코럴오션리조트</p>
+                                        <b>#트렌디한리조트#풀파티#휴양N골프</b>
+                                        <span>893,000~</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="slide slide4">
+                                <a href="">
+                                    <span class="blind">슬라이드 이미지4</span>
+                                    <div class="slideTxt">
+                                        <p>싱가포르 5~6일 #완전특가 </p>
+                                        <b>#가격이혜택 #비교불가</b>
+                                        <span>828,200~</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="slide slide5">
+                                <a href="">
+                                    <span class="blind">슬라이드 이미지5</span>
+                                    <div class="slideTxt">
+                                        <p>[신규취항특가] 홍콩 자유여행 3/4일</p>
+                                        <b>#항공+호텔+보험#홍콩섬#란콰이퐁중심</b>
+                                        <span>399,000원~</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="slide slide6">
+                                <a href="">
+                                    <span class="blind">슬라이드 이미지6</span>
+                                    <div class="slideTxt">
+                                        <p>사이판 4,5,6일 #코럴오션리조트</p>
+                                        <b>#트렌디한리조트#풀파티#휴양N골프</b>
+                                        <span>893,000~</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="slide slide7">
+                                <a href="">
+                                    <span class="blind">슬라이드 이미지6</span>
+                                    <div class="slideTxt">
+                                        <p>싱가포르 5~6일 #완전특가 </p>
+                                        <b>#가격이혜택 #비교불가</b>
+                                        <span>828,200~</span>
+                                    </div>
+                                </a>
                             </div>
                         </div>
                     </div>
+                </div>
+            </article>
+            <article class="main_wide">
+                <div class="slide-group3">
+                    <a href="" class="slide slide1">
+                        <img src="./img/main_wide_img1.jpg" alt="">
+                        <div class="slide_text">
+                        </div>
+                    </a>
+                    <a href="" class="slide slide2">
+                        <img src="./img/main_wide_img2.jpg" alt="">
+                        <div class="slide_text">
+                        </div>
+                    </a>
+                </div>
+            </article>
+            <article class="main_banner">
+                <div>
+                    <ul class="bannerUl cf">
+                        <li>
+                            <a href="">
+                                <strong>품질경영</strong>
+                                <img src="./img/main_banner_img1.jpg" alt="" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <strong>A/S 센터</strong>
+                                <img src="./img/main_banner_img2.jpg" alt="" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <strong>A/S 센터</strong>
+                                <img src="./img/main_banner_img3.jpg" alt="" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <strong>A/S 센터</strong>
+                                <img src="./img/main_banner_img4.jpg" alt="" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <strong>A/S 센터</strong>
+                                <img src="./img/main_banner_img5.jpg" alt="" />
+                            </a>
+                        </li>
+                    </ul>
                 </div>
             </article>
             <article class="article3">
@@ -263,7 +412,7 @@
                     </div>
                 </div>
             </article>
-            
+
             <article class="article4">
                 <div class="tit">
                     <div class="row cf">
